@@ -38,12 +38,12 @@ Expected Output:
 				{1,-5,-2, 2},
 				{1,-2, 3,-4}
 			};
-	    int sum=0;
+	    int sum9=0;
 		for(int i=0;i<a.length;i++){
 	    for (int j=0;j<a[i].length;j++){
-	      sum+=a[i][j];
+	      sum9+=a[i][j];
 	    }
-	  }System.out.println(sum);
+	  }System.out.println(sum9);
 	  
 /*#83
 * Write a program that calculates the sum of elements from each row in a 2D array and adds them into array of integers
@@ -63,23 +63,6 @@ Then we should get the following array back:
 11
 3
 	   */
-	  System.out.println("++++++++++++++++++++++++++++++++++++++++=");
-		int[][] x = {
-				{1,1,2}, //sum = 4
-				{3,1,2}, //sum = 6
-				{3,5,3}, //sum = 11
-				{0,1,2}  //sum = 3
-			};
-		int rowSum=0;
-	    
-
-	    for(int i=0;i<x.length;i++){
-	      
-	      for(int j =0;j<x[i].length;j++){
-	     rowSum+=x[i][j];
-	     System.out.println(rowSum);
-	      }
-	    }
 	  
 	  
 		

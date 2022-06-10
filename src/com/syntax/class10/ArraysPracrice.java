@@ -8,7 +8,7 @@ public class ArraysPracrice {
 		
 	
 		
-		//Create an array to store char values and then print those in reverse order
+		//what is the max number in an array
 		int[] num = { 3, 4, 5, 6, 7, 8, 9, 12, 15 };
 		int max=num[0];
 		for (int i =1;i<num.length;i++) {

@@ -6,7 +6,7 @@ public class SwitchCaseLimitation {
 		// TODO Auto-generated method stub
 		/* switch can work with byte, short, int, char, String
 		 * 
-		 * switch has a datatype limitations
+		 * switch has a data type limitations
 		 * 
 		 * switch cannot work with double, float, long, boolean
 		 */

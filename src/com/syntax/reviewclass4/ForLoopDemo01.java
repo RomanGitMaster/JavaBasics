@@ -1,4 +1,4 @@
-package com.syntax.reviewclass04;
+package com.syntax.reviewclass4;
 
 public class ForLoopDemo01 {
 

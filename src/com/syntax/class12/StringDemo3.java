@@ -4,7 +4,7 @@ public class StringDemo3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-String str="Batch 13 is Great";
+String str=" Bo b";
 
 System.out.println(str.startsWith("Forzen"));
 
@@ -25,10 +25,10 @@ System.out.println(str.toLowerCase().contains("13"));
 
 
 
+str=str.toLowerCase().replace(" ","");
+System.out.println(str);
 
-
-
-
+System.out.println("_____________________________________________");
 
 	}
 

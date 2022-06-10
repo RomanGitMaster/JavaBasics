@@ -11,8 +11,9 @@ public class StringDemo7 {
 		System.out.println(str.indexOf("always"));
 		System.out.println(str.indexOf('a'));
 		System.out.println(str.indexOf('z'));// if the char ,symbol, is not in  a string it will gives us-1
-
-		
+		System.out.println(str.indexOf('a',3));  // if we add extra symbolor letter it will start search for 
+		                                         // specified symbol after 3 index- everything else before 
+		                                         // it is ignored
 		
 	}
 
